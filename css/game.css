@@ -1,0 +1,136 @@
+body,button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.board-container {
+    background-color: rgb(29, 24, 25);
+    width: 800px;
+    height: 550px;
+    position: fixed;
+    left: 280px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index: -1;
+}
+
+.levels {
+    float: right;
+    position: fixed;
+    top: 130px;
+    left: 510px;
+    z-index: +1;
+}
+
+.safe-click {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 5px;
+    width: 120px;
+    /* position: relative; */
+    /* top: 30px; */
+}
+
+.board {
+    background-color: grey;
+    float: center;
+    position: relative;
+}
+
+table {
+    border: 3px solid grey;
+    
+}
+
+.timerDisplay {
+    position: relative;
+    width: 60px;
+    color: red;
+    background-color: black;
+    border: 1px solid yellow;
+    padding: 2px;
+}
+
+thead tr th{
+    width: 10px;
+    text-align: center;
+}
+
+td {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid black;
+	border-top-color: #fff;
+	border-left-color: #fff;
+	border-right-color: #808080;
+    border-bottom-color: #808080;
+    background-color: darkgrey;
+}
+
+td:active {
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+        box-shadow: inset 0px 0px 5px #c1c1c1;
+        
+}
+
+.pressed {
+    border-color: darkgrey;
+}
+
+
+.clicks {
+    color: white;
+}
+
+/* .modal {
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    color: white;
+    background-color: rgb(185, 43, 43);
+    padding: 5px;
+    font-weight: bold;
+    display: none;
+} */
+
+.clue {
+    background-color: rgb(25, 216, 25);
+}
+
+.count1 {
+    color: #0000ff;
+}
+
+.count2 {
+    color: #007b00;
+}
+
+.count3 {
+    color: #ff0000;
+}
+
+.count4 {
+    color: #00007b
+}
+
+.count5 {
+    color: #7b0000
+}
+
+.count6 {
+    color: #007b7b
+}
+
+.count7 {
+    color: #000000
+}
+
+.count8 {
+    color: #7b7b7b
+}
+
